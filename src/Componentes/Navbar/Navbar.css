@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+   
+   }
+   
+   body{
+       font-family: 'Roboto Flex', sans-serif;
+     
+       background-color: #0f4f84;
+      
+   }
+   
+   a{
+       text-decoration: none;
+       color: aliceblue;
+   }
+   
+   header{
+       display: flex;     
+       min-height: 80px;
+       justify-content: space-between; 
+       background-color: #0f4f84;
+       align-items: center;   
+   }
+    
+   .h2-banner{
+       display: flex;
+       align-items: center;
+       font-family: 'Roboto Flex', sans-serif;
+       font-weight: 400;
+       padding: 10px;
+       color: aliceblue;
+   } 
+   
+   .div-banner{
+   display: flex;
+   align-items: center; 
+    
+   }
+   
+   .imagen-banner{
+       display: flex;
+       height: 55px;
+       margin-right: 10px; 
+       padding: 1opx   ;  
+       align-items: center;
+   }
+   
+   nav{
+   flex-wrap: wrap;
+   }
+
+  .ul-botones{
+    font-display: flex;
+    width: 50%;
+  }    
+   .botones-de-la-barra{
+       /*display: column;*/
+       /*display: flex;*/
+       color: white;
+       align-items: center;    
+       text-decoration: none;   
+       font-weight: 400;
+       height: 40px;
+       padding: 1px; 
+       margin: 15px;
+       justify-content: space-around;
+       width: 100%;
+   }
+   
+   .botones-de-la-barra:hover{
+       color: rgb(0, 255, 200);
+      
+   }
+   .contenedor-de-ofertas{
+       display: flex;
+       background-color: azure;
+       width: 30%;
+       margin: 0.5% auto;   
+   }
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   @media (max-width: 900px){
+       header{
+           flex-direction: column;
+           padding: 10px;
+           font-size: 5;       
+       }  
+   
+       nav{
+            
+           font-size: 15px; 
+       }
+       .div-banner{
+   
+           min-height: 100px;
+       }
+   
+       .imagen-banner{
+           display: flex;
+           height: 65px;
+       
+             
+           align-items: center;
+       }
+   
+       .h2-banner{
+           display: flex;
+          align-items: center;
+           font-family: 'Roboto Flex', sans-serif;
+           font-weight: 400;
+           font-size: 50;    
+       } 
+   
+       .botones-de-la-barra{
+      
+           color: white;
+           background-color: #0f4f84;
+           /* font-family: 'Roboto Flex', sans-serif;*/
+           text-decoration: none;   
+           flex-wrap: wrap;
+           flex-direction: column;
+           font-size: 10;
+            
+           
+       }
+   
+       .botones-de-la-barra:hover{
+           color: rgb(50, 179, 211);
+          
+       }
+   
+   } 
+    
+   #reloj{
+   position: fixed;
+   bottom: 1rem;
+   font-size: 2px solid gray;
+   background-color: aqua;
+   border-radius: 5px;
+   padding: 0.5rem;
+   font-family: monospace;
+   
+    }
